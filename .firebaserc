@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "chat-app-d1e95": {
+      "hosting": {
+        "getstream-chat-angular-example": [
+          "chat-app-d1e95"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "chat-app-d1e95"
+  }
+}
