@@ -1,1 +1,12 @@
-<p>new-channel works!</p>
+<mat-form-field>
+  <mat-label>Add a new channel</mat-label>
+  <input type="text"
+         matInput
+         [formControl]="channelName"
+         placeholder="Channel Name">
+</mat-form-field>
+
+<button mat-rised-button
+        color="primary"
+        (click)="onCreate()">Create Channel
+</button>
